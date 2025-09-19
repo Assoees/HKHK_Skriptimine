@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+#kasutajanime ja parooli küsimine
+echo "Mis on kasutajanimi?"
+read -p "Kasutajanimi:" user
+echo "Mis on parooliks?"
+read -sp "Parool: " password
+
